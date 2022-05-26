@@ -1,0 +1,18 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/webjsptaglibrary_2_0.xsd">
+<tlib-version>2.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<short-name>DocumentPopover</short-name>
+<description>This Tag provides a Popover-Implementation
+</description>
+<tag>
+    <name>DocumentPopover</name>
+    <tag-class>de.dbae.tag.DocumentPopover</tag-class>
+    <attribute> 
+        <name>dok</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+</tag>
+</taglib>

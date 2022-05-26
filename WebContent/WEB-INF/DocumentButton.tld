@@ -1,0 +1,23 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/webjsptaglibrary_2_0.xsd">
+<tlib-version>2.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<short-name>DocumentButton</short-name>
+<description>This Tag provides a Button-Implementation
+</description>
+<tag>
+    <name>DocumentButton</name>
+    <tag-class>de.dbae.tag.DocumentButton</tag-class>
+        <attribute> 
+        <name>type</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute> 
+        <name>id</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+</tag>
+</taglib>

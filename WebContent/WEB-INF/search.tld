@@ -1,0 +1,13 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/webjsptaglibrary_2_0.xsd">
+<tlib-version>2.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<short-name>getSearch</short-name>
+<description>Dieser Tag sucht die eingegebe String in der Tabelle dokumente
+</description>
+<tag>
+    <name>getSearch</name>
+    <tag-class>de.dbae.tag.Search</tag-class>
+</tag>
+</taglib>

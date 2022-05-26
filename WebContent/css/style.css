@@ -1,0 +1,64 @@
+/* ---- Navigation Settings ----*/
+
+#imgID {
+	display: block;
+	margin: auto;
+}
+
+.transparentBtn {
+	background-color: transparent;
+	color: #9d9d9d;
+}
+
+.transparentBtn:hover {
+	color: white;
+}
+
+/* ---- Course Overview Settings ----*/
+
+.deprecatedClass {
+	color: yellow;
+}
+
+.popover {
+	color: black;
+}
+
+.btn_hover:hover {
+	background-color: white;
+}
+
+button.btn_hover{
+text-align: left;
+}
+
+div.page-header {
+	border-bottom-color: white;
+}
+
+div.dropdown{
+ float: right;
+ margin-left: 10px;
+}
+
+ul.adminDropdown{
+	color: black;
+	padding: 5px 0px 5px 0px;
+
+}
+
+button.marginLeftBtn{
+margin-left:10px;
+}
+
+/* ---- Course Display Settings ----*/
+
+.popover{
+	display: inline-block;
+}
+
+.tableResult tr td{
+padding-right:10px;
+
+}
+
